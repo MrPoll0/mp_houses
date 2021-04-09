@@ -15,7 +15,7 @@ Config.ActionLabel = {
     ["invite"] = "Invitar"
 }
 
-local city = GetConvar("city", "")
+local city = GetConvar("city", "") -- server.cfc var for the main city. [Los Santos / Paleto Bay]
 
 if city == "Paleto Bay" then 
 Config.LandLord = {
